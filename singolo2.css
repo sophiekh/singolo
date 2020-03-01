@@ -138,6 +138,9 @@ button:hover {
   margin-top: 12px;
   margin-bottom: 10px;
   letter-spacing: -0.2px;
+  max-width: 300px;
+  max-height: 22px;
+  overflow: hidden;
 }
 
 .person > p {
