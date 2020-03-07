@@ -1,0 +1,189 @@
+@font-face {
+  font-family: Lato;
+  src: url(assets/fonts/Lato-Bold.ttf);
+  font-weight: 700;
+ }
+
+ @font-face {
+  font-family: Lato;
+  src: url(assets/fonts/Lato-Black.ttf); 
+  font-weight: 800;
+ }
+
+ @font-face {
+  font-family: Lato;
+  src: url(assets/fonts/Lato-Regular.ttf); 
+  font-weight: 500;
+ }
+
+ @font-face {
+  font-family: Lato;
+  src: url(assets/fonts/Lato-Light.ttf); 
+  font-weight: 300;
+ }
+
+body {
+  font-family: "Lato", sans-serif;
+  width: 1020px;
+  margin: auto;
+ }
+
+h2 {
+  font-weight: 800;
+  font-size: 30px;
+  color: #f0d8d9;
+  margin: 0;
+  letter-spacing: -0.2px;
+ }
+
+main {
+   background-color: #f06c64;
+   height: 589px;
+   border-bottom: 6px solid #ea676b;
+   padding-top: 59px;
+ }
+
+footer {
+   background-color: #2d303a;
+   height: 76px;
+   margin:0;   
+ }
+
+div.social {
+  float: right;
+  margin-top: 21px; 
+}
+
+.social > a {
+  margin-left: 3px;
+}
+
+.wrapper {
+  padding-left: 40px;
+  padding-right: 40px;  
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  color: #f0d8d9;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 19px;
+  margin-bottom: 43px;
+  text-align: justify;
+  line-height: 1.7em;
+}
+
+input, textarea {
+  background-color: #d6564f;
+  border: 0;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+input {
+  width: 604px;
+  height: 36px;
+  margin-bottom: 16px; 
+}
+
+textarea {
+  width: 602px;
+  height: 189px;
+  padding-top: 11px;
+  resize: none;
+}
+
+ input::placeholder, textarea::placeholder{
+  color: #f48c8f;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+ } 
+
+button{
+  background-color: transparent;
+  color: #70130e;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px #70130e solid;
+  border-radius: 5px;
+  height: 30px;
+  width: 90px;
+  float: right;
+}
+
+button:hover {
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+div.contacts {
+  width: 300px;
+  height: 162px;  
+}
+
+.contacts > h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #f0d8d9;
+  margin-top: -2px;
+  margin-bottom: 9px;  
+}
+
+.contacts > p {
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 0;
+  line-height: 1.8em;
+  letter-spacing: -0.1px;
+  margin-bottom: 22px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.contact-links > a { 
+  color: #f0d8d9;
+  margin-bottom: 3px;
+  display: inline-block;
+}
+
+a.address::before {
+  content: url(./assets/images/location.png);
+  width: 8px;
+  margin-left: 3px;
+  margin-right: 13px;
+}
+
+a.phone::before {
+  content: url(./assets/images/phone.png);
+  width: 8px;
+  margin-right: 11px;
+  margin-left: 1px;
+}
+
+a.mail::before {
+  content: url(./assets/images/mail.png);
+  width: 8px;
+  margin-right: 10px;
+}
+
+.copyright{
+  margin-top: 31px;;
+  font-size: 12px;
+  color: #666d89;
+}
+
+
+
+
