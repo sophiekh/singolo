@@ -128,7 +128,8 @@ button {
 .services {
   background-color: #f2f2f2;
   padding-top: 34px;
-  height: 466px;
+  height: 460px;
+  border-bottom: 6px white solid;  
 }
 
 .our-services h2 { 
